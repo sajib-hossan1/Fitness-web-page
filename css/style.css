@@ -1,0 +1,379 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+/* header section starts here */
+.header {
+    background-image: url(../images/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo-img {
+    height: 60px;
+    margin-top: 5px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+    background: turquoise;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.navbar {
+    padding: 0 30px;
+    background: rgba(0, 132, 255, 0.507);
+
+}
+
+.nav-div ul li a {
+    color: white;
+    border: 1px solid white;
+    padding: 7px 13px !important;
+    margin-left: 20px;
+    position: relative;
+    transition: 0.3s color;
+    z-index: 1;
+}
+
+.nav-div ul li a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 766px) {
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .nav-div {
+        background: rgb(35, 35, 65);
+    }
+
+    .nav-div ul li {
+        border-bottom: 1px solid rgb(63, 58, 58);
+        padding: 20px;
+    }
+
+    .nav-div ul li a {
+        text-align: center;
+        border: none;
+        padding: 20px !important;
+        margin-left: 0;
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .logo-img {
+        height: 40px;
+    }
+
+    .fa-bars {
+        font-size: 20px;
+    }
+}
+
+
+
+.registration {
+    text-align: center;
+    clear: both;
+    margin-top: 200px;
+}
+
+.registration a {
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.registration a:hover {
+    color: rgb(119, 255, 248);
+    border: 2px solid rgb(119, 255, 248);
+}
+
+/* header section ends here */
+
+
+/* feature section starts here */
+.features {
+    background-color: lightblue;
+}
+
+.features h1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature-box h3 {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.feature-box p {
+    padding: 0 15px 15px 5px;
+    text-align: justify;
+}
+
+.feature-box img {
+    width: 100%;
+}
+
+.feature-box {
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+/* feature section ends here */
+
+
+/* packages section starts here */
+.packages-header {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.package-box {
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 0 25px 0;
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(234, 3, 255));
+}
+
+.package-header h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: serif;
+    color: white;
+}
+
+.package-header h1 {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgb(0, 255, 85);
+    color: black;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.package-list {
+    margin-top: 30px;
+}
+
+.package-list p {
+    padding-left: 10px;
+    color: white;
+}
+
+.package-price h2 {
+    color: rgb(251, 255, 0);
+    text-shadow: 0px 0px 7px black;
+}
+
+.get-offer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.get-offer a {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    padding: 15px 25px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.get-offer a:hover {
+    color: black;
+}
+
+
+.package-premium {
+    transition: 0.5s;
+}
+
+.package-premium,
+.package-one,
+.package-two {
+    transition: 0.5s;
+}
+
+.package-premium:hover,
+.package-one:hover,
+.package-two:hover {
+    transform: scale(1.1);
+}
+
+/* packages section ends here */
+
+
+/* trainer section starts here */
+.trainer-box {
+    box-shadow: 0px 0px 7px 2px rgba(68, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.trainer-box img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.trainer h1 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.trainer-details {
+    text-align: center;
+}
+
+.trainer-details p {
+    text-align: justify;
+    padding: 7px;
+}
+
+.trainer-details h3 {
+    padding-top: 15px;
+}
+
+.trainer-details small {
+    padding-bottom: 10px;
+}
+
+/* trainer section ends here */
+
+
+/* user review section starts here */
+.user-review {
+    text-align: center;
+}
+
+.user-review h1 {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.user-box {
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.user-box img {
+    width: 70%;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+.user-box p {
+    text-align: justify;
+    padding: 50px 20px 10px 20px;
+    position: relative;
+}
+
+.user-box p::before {
+    content: '\201d';
+    color: rgb(0, 204, 255);
+    font-size: 90px;
+    font-family: sans-serif;
+    position: absolute;
+    top: -5%;
+    left: 45%;
+}
+
+.user-box small {
+    padding-bottom: 10px;
+}
+
+/* user review section ends here */
+
+
+/* footer section starts here */
+.footer {
+    background: linear-gradient(rgb(0, 204, 255), rgb(234, 3, 255));
+    color: white;
+}
+
+.contact-info p {
+    padding-left: 15px;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-info h2 {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.contact-box1 {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.contact-box2 {
+    padding-left: 20px;
+}
+
+.contact-box2 p {
+    color: white;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background-color: lightgray;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+
+.fa-facebook-official {
+    color: blue;
+    font-size: 20px;
+}
+
+.fa-youtube-play {
+    color: red;
+    font-size: 20px;
+}
+
+.fa-twitter-square {
+    color: rgb(35, 137, 255);
+    font-size: 20px
+}
+
+/* footer section ends here */
